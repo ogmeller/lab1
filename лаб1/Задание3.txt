@@ -1,0 +1,23 @@
+//Напишите программу, которая проверяет, является ли год високосным.
+
+
+#include <iostream>
+
+using namespace std;
+int main() {
+setlocale(0, "");
+int year;
+cout << "Введите год: ";
+cin >> year;
+
+if (year % 4 == 0) {
+    cout << "год високосный";
+}
+else{
+    cout << "год не високосный";
+}
+return 0;
+}
+
+
+ 
